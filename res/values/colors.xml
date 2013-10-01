@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main menu buttons -->
+    <color name="main_menu_background">#bbbbbb</color>
+    <color name="main_menu_background_pressed">#c0c0c0</color>
+    <color name="main_menu_active_line">#1e90ff</color>
+    <color name="main_menu_separator_line">#c0c0c0</color>
+    
+    <!-- Name bar -->
+    <color name="name_bar_background">#1e90ff</color>
+</resources>

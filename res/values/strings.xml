@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Socialize</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Main menu bar -->
+    <string name="contacts">Contacts</string>
+    <string name="groups">Groups</string>
+    <string name="media">Media</string>
+    <string name="hobby">Hobby</string>
+    
+    <!-- Logo bar -->
+    <string name="copyright">©</string>
+    
+    <!-- Copyright -->
+    <string name="copyright_text"> © 2013</string>
+
+    <!-- Name Bars -->
+    <string name="name_bar_contacts">Contacts</string>
+    <string name="name_bar_groups">Groups</string>
+
+    <!-- Test Contacts List -->
+    <string-array name="contacts_list">
+        <item>Karina</item>
+        <item>Charles</item>
+        <item>Alain</item>
+        <item>Juliette</item>
+        <item>Fabien</item>
+        <item>Serge</item>
+        <item>Monique</item>
+        <item>Natali</item>
+        <item>Fleur</item>
+        <item>Claire</item>
+    </string-array>
+    
+    <!-- Test Groups List -->
+    <string-array name="groups_list">
+        <item>UTT</item>
+        <item>TX</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Sport class</item>
+        <item>LO04</item>
+        <item>English</item>
+        <item>Russia</item>
+        <item>Finland</item>
+        <item>France</item>
+    </string-array>
+</resources>

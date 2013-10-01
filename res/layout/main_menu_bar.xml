@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal"
+	android:background="@color/main_menu_background"
+	android:paddingTop="8dp">
+	<Button
+		android:id="@+id/news"
+		style="@style/MainMenuActive"
+		android:drawableTop="@drawable/news_icon"
+		android:text="@string/contacts" />
+	<Button
+		android:id="@+id/about"
+		style="@style/MainMenu"
+		android:text="@string/groups"
+		android:drawableTop="@drawable/about_icon" />
+	<Button
+		android:id="@+id/media"
+		style="@style/MainMenu"
+		android:text="@string/media"
+		android:drawableTop="@drawable/media_icon" />
+	<Button
+		android:id="@+id/hobby"
+		style="@style/MainMenu"
+		android:text="@string/hobby"
+		android:drawableTop="@drawable/hobby_icon" />
+</LinearLayout>

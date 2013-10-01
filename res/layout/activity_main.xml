@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity" >
+	<fragment
+		android:id="@+id/logo_fragment"
+		android:name="fr.utt.socialize.controller.LogoController"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:layout="@layout/logo_bar" />
+	
+	<include layout="@layout/name_bar"/>
+	<fragment
+		android:id="@+id/list_fragment"
+		android:name="fr.utt.socialize.controller.ContactsListController"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		tools:layout="@layout/list" />
+	<fragment
+		android:id="@+id/main_menu_fragment"
+		android:name="fr.utt.socialize.controller.MainMenuController"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:layout="@layout/main_menu_bar" />
+</LinearLayout>
